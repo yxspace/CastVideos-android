@@ -40,13 +40,18 @@
             android:theme="@style/Theme.CastVideosTheme">
 
         <activity
-                android:name="com.google.sample.cast.refplayer.VideoBrowserActivity"
-                android:label="@string/app_name">
+            android:name="com.google.sample.cast.refplayer.SplashActivity"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+
+        <activity
+                android:name="com.google.sample.cast.refplayer.VideoBrowserActivity"
+                android:label="@string/app_name">
         </activity>
         <activity
                 android:name="com.google.sample.cast.refplayer.mediaplayer.LocalPlayerActivity"
